@@ -81,34 +81,6 @@ Linear(288, 32) -> BatchNorm1d
 Linear(32, 10)
 ```
 
-#### Architecture Diagram
-```
-Input (1x28x28)
-      │
-Conv2d(1,16,3x3) → BatchNorm2d
-      │
-   ReLU
-      │
-MaxPool2d(2x2)
-      │
-Conv2d(16,32,3x3) → BatchNorm2d
-      │
-   ReLU
-      │
-MaxPool2d(3x3)
-      │
-Flatten
-      │
-Linear(288,32) → BatchNorm1d
-      │
-   ReLU
-      │
-Linear(32,10)
-      │
-LogSoftmax
-      │
-Output (10 classes)
-```
 
 ## Key Improvements
 1. Iteration 1 → 2:
