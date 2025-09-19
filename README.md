@@ -25,7 +25,7 @@ All iterations share a similar base architecture with two convolutional layers f
 | Feature                | Iteration 1         | Iteration 2         | Iteration 3         |
 |------------------------|---------------------|---------------------|---------------------|
 | Total Parameters       | ~24,245             | ~24,471             | ~14,538             |
-| Test Accuracy          | 98.95%              | 99.52%              | 99.37%   |
+| Test Accuracy          | 98.95%              | 99.52%              | 99.38%   |
 | Batch Size             | 512                 | 1024                | 1024                |
 | Batch Normalization    | No                  | Yes                 | Yes                 |
 | Dropout                | No                  | No                  | No                  |
